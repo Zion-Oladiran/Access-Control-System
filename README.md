@@ -1,2 +1,3 @@
 # Access-Control-System
-This repository contains the project code of my final year project. It is an access control system that grants access to users using Face recognition and Radio Frequency Identification (RFID) technologies. OpenCV Library was used for the Face recognition
+This repository contains the project code of my final year project. The whole system is based on face recognition technology and radio frequency identification as a tool for the proper identification of users. It allows two-step authentication of users to grant access to authorized users only. The components used for the implementation of this system are; Raspberry pi 3, RFID reader, Passive Infrared Sensor, Pi Camera, and solenoid lock. 
+With this technology, users’ faces are detected, captured, and matched with the face image saved on the database and will only grant access to such users if the face matches what is present on the database. 
